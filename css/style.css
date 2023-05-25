@@ -1,0 +1,280 @@
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+p, h1, h2, h3{
+    margin: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #EBE2DD;
+    color: #030914;
+}
+
+.container {
+    width: 1441px;
+
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0 auto;
+}
+
+/* ====== HEADER ====== */
+
+.header {}
+
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.nav {}
+
+.nav-list {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+
+    display: flex;
+    gap: 48px;
+}
+
+.nav-list-item {}
+
+.nav-list-item:hover{
+    color: #9A9D28;
+}
+
+/* ====== HERO ====== */
+
+.hero-section {
+    position: relative;
+}
+
+.hero-background {
+    position: absolute;
+    z-index: -10;
+}
+
+.hero-leaf{
+    position: absolute;
+}
+
+.hero-container{
+    display: flex;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    margin-top: 188px;
+    margin-left: 15px;
+    margin-bottom: 133px;
+}
+
+.heto-title {
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 115%;
+
+    margin-bottom: 30px;
+}
+
+.hero-title-two {
+    font-family: 'Love Ya Like A Sister';
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 79%;
+
+    color: #9A9D28;
+
+    margin-bottom: 30px;
+}
+
+.hero-text {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+
+    text-align: center;
+
+    margin-bottom: 50px;
+}
+
+.hero-link {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+
+    color: #EBE2DD;
+    background-color: #9A9D28;
+
+    border-radius: 25px;
+    padding: 8px 47px;
+}
+
+.hero-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/* ====== STORY ====== */
+
+.story-section {}
+
+.story-container{
+    margin-bottom: 55px;
+}
+
+.story-title {
+    font-weight: 700;
+    font-size: 67.34px;
+    line-height: 115%;
+
+    margin-bottom: 32px;
+}
+
+.story-text {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+
+    width: 682px;
+
+    margin-bottom: 60px;
+}
+
+.story-list {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+    margin: 0 auto;
+}
+
+.story-item {
+    width: 290px;
+
+    border: 2px solid #C7C789;
+    border-radius: 0px 40px;
+
+    padding: 40px;
+}
+
+.story-item-img {
+    margin-bottom: 20px;
+}
+
+.story-item-title {
+    font-weight: 700;
+    font-size: 28.43px;
+    line-height: 115%;
+
+    margin-bottom: 8px;
+}
+
+.story-item-text {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+/* ====== SERVICES ====== */
+
+.services-section {
+    position: relative;
+}
+
+.services-background{
+    position: absolute;
+    z-index: -10;
+    right: 0;
+}
+
+.services-watering-can{
+    position: absolute;
+    right: 0;
+
+}
+
+.services-container {
+    margin-bottom: 250px;
+}
+
+.services-img{
+    position: absolute;
+    left: 0;
+}
+
+.services-content {
+    padding-top: 145px;
+    padding-left: 730px;
+}
+
+.services-title {
+    font-weight: 700;
+    font-size: 67.34px;
+    line-height: 115%;
+
+    margin-bottom: 30px;
+}
+
+.services-text {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+/* ====== FOOTER ====== */
+
+.footer-container {}
+
+.footer-links {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+
+    margin-bottom: 40px;
+}
+
+.link-logo {
+    margin-right: auto;
+}
+
+.nav-list-item {}
+
+.footer-label {
+    display:flex;
+    justify-content: center;
+
+    margin-bottom: 20px;
+}
