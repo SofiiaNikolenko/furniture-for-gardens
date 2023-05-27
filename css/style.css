@@ -37,6 +37,26 @@ body{
     margin: 0 auto;
 }
 
+@media screen and (min-width: 480px) {
+    .container {
+        width: 426px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 766px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 1441px;
+    }
+}
+
 /* ====== HEADER ====== */
 
 .header {}
@@ -48,6 +68,10 @@ body{
 
     padding-top: 25px;
     padding-bottom: 25px;
+}
+
+.header-img{
+
 }
 
 .nav {}
@@ -67,6 +91,18 @@ body{
     color: #9A9D28;
 }
 
+@media screen and (max-width: 767px) {
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+
+}
+
+@media screen and (min-width: 1200px) {
+
+}
+
 /* ====== HERO ====== */
 
 .hero-section {
@@ -84,6 +120,7 @@ body{
 
 .hero-container{
     display: flex;
+    margin-bottom: 133px;
 }
 
 .hero-content {
@@ -94,7 +131,6 @@ body{
 
     margin-top: 188px;
     margin-left: 15px;
-    margin-bottom: 133px;
 }
 
 .heto-title {
@@ -142,6 +178,25 @@ body{
     position: absolute;
     top: 0;
     right: 0;
+}
+
+@media screen and (max-width: 1190px){
+    .hero-leaf {
+        width: 100px;
+    }
+
+    .hero-container {
+        flex-direction: column-reverse;
+        margin-bottom: 50px;
+    }
+
+    .hero-content {
+        margin: 0;
+    }
+
+    .hero-img {
+        position: relative;
+    }
 }
 
 /* ====== STORY ====== */
@@ -207,6 +262,17 @@ body{
     line-height: 150%;
 }
 
+@media screen and (max-width: 1199px) {
+    .story-text{
+        width: 100%;
+    }
+
+    .story-list{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 /* ====== SERVICES ====== */
 
 .services-section {
@@ -254,6 +320,27 @@ body{
     line-height: 150%;
 }
 
+@media screen and (max-width: 1199px) {
+    .services-container{
+        display: flex;
+        flex-direction: column;
+
+        margin-bottom: 70px;
+    }
+
+    .services-watering-can{
+        width: 150px;
+    }
+
+    .services-img{
+        position: relative;
+    }
+
+    .services-content{
+        padding: 0;
+    }
+
+}
 /* ====== FOOTER ====== */
 
 .footer-container {}
@@ -266,15 +353,19 @@ body{
     margin-bottom: 40px;
 }
 
-.link-logo {
+.footer-logo {
     margin-right: auto;
 }
-
-.nav-list-item {}
 
 .footer-label {
     display:flex;
     justify-content: center;
 
     margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1199px){
+    .footer-links{
+        justify-content: space-between;
+    }
 }
